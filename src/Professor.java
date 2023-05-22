@@ -6,6 +6,13 @@ public class Professor {
     String disciplina;
     double cargaHoraria;
 
+    //CONSTRUTOR
+    public Professor(String nome, long CPF, String email){
+        this.nome = nome;
+        this.CPF = CPF;
+        this.email = email;
+    }
+
     public void realizarChamada(){}
 
     public void atribuirNota(){}
